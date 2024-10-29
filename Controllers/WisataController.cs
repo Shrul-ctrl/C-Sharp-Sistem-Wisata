@@ -95,7 +95,7 @@ namespace SistemWisata.Controllers
                         await Foto_Wisata.CopyToAsync(stream);
                     }
 
-                    wisata.Foto_Wisata = fileName; // Simpan nama file ke dalam database
+                    wisata.Foto_Wisata = fileName;
                 }
 
                 _context.Add(wisata);
@@ -148,7 +148,6 @@ namespace SistemWisata.Controllers
 
                 if (Foto_Wisata != null && Foto_Wisata.Length > 0)
                 {
-                    // Path untuk file foto baru
                     var fileName = Path.GetFileName(Foto_Wisata.FileName);
                     var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
 
@@ -157,9 +156,9 @@ namespace SistemWisata.Controllers
                         await Foto_Wisata.CopyToAsync(stream);
                     }
 
-                    wisata.Foto_Wisata = fileName; // Simpan nama file baru ke dalam database
+                    wisata.Foto_Wisata = fileName;
 
-                    // Hapus foto lama jika ada
+                    // Hapus foto lama
                     if (!string.IsNullOrEmpty(oldFotoWisata))
                     {
                         var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", oldFotoWisata);

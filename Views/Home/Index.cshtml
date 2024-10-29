@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Dashboard";
 }
 
 <div class="col-xxl-8 d-flex align-items-stretch">
@@ -30,16 +30,16 @@
         <div class="card-body">
             <div class="">
                 <div class="d-flex align-items-center gap-2 mb-2">
-                    <h5 class="mb-0 text-dark">Name Table</h5>
+                    <h5 class="mb-0 text-dark">Tabel Wisata</h5>
                 </div>
                 <p class="mb-4"></p>
                 <div class="d-flex align-items-center justify-content-between">
                     <div class="">
-                        <h3 class="mb-0 text-dark">2</h3>
+                        <h3 class="mb-0 text-dark">@ViewBag.WisataCount</h3>
                         <p class="mb-3"></p>
-                        <button class="btn btn-grd btn-secondary rounded-5 border-0 px-4">Detail</button>
+                        <a asp-action="Index" asp-controller="wisata" class="btn btn-grd btn-secondary rounded-5 border-0 px-4">Detail</a>
                     </div>
-                    <img src="assets/images/apps/gift-box-3.png" width="100" alt="">
+                    <img src="assets/images/auth/reset-password1.png" width="100" alt="">
                 </div>
             </div>
         </div>
@@ -50,16 +50,16 @@
         <div class="card-body">
             <div class="">
                 <div class="d-flex align-items-center gap-2 mb-2">
-                    <h5 class="mb-0 text-dark">Name Table</h5>
+                    <h5 class="mb-0 text-dark">Tabel lokasi</h5>
                 </div>
                 <p class="mb-4"></p>
                 <div class="d-flex align-items-center justify-content-between">
                     <div class="">
-                        <h3 class="mb-0 text-dark">2</h3>
+                        <h3 class="mb-0 text-dark">@ViewBag.LokasiCount</h3>
                         <p class="mb-3"></p>
-                        <button class="btn btn-grd btn-secondary rounded-5 border-0 px-4">Detail</button>
+                        <a asp-action="Index" asp-controller="wisata" class="btn btn-grd btn-secondary rounded-5 border-0 px-4">Detail</a>
                     </div>
-                    <img src="assets/images/apps/gift-box-3.png" width="100" alt="">
+                    <img src="assets/images/auth/login1.png" width="100" alt="">
                 </div>
             </div>
         </div>
@@ -70,16 +70,16 @@
         <div class="card-body">
             <div class="">
                 <div class="d-flex align-items-center gap-2 mb-2">
-                    <h5 class="mb-0 text-dark">Name Table</h5>
+                    <h5 class="mb-0 text-dark">Table Kategori</h5>
                 </div>
                 <p class="mb-4"></p>
                 <div class="d-flex align-items-center justify-content-between">
                     <div class="">
-                        <h3 class="mb-0 text-dark">2</h3>
+                        <h3 class="mb-0 text-dark">@ViewBag.KategoriCount</h3>
                         <p class="mb-3"></p>
-                        <button class="btn btn-grd btn-secondary rounded-5 border-0 px-4">Detail</button>
+                        <a asp-action="Index" asp-controller="wisata" class="btn btn-grd btn-secondary rounded-5 border-0 px-4">Detail</a>
                     </div>
-                    <img src="assets/images/apps/gift-box-3.png" width="100" alt="">
+                    <img src="assets/images/auth/register1.png" width="100" alt="">
                 </div>
             </div>
         </div>

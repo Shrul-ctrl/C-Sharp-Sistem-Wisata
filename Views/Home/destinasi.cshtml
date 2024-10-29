@@ -1,3 +1,5 @@
+@model IEnumerable<sistem_wisata.Models.Wisata>
+
 @{
     Layout = "~/Views/Shared/_LayoutBack.cshtml"; // Specify the layout
 }
@@ -5,12 +7,10 @@
 <div class="content-1 card text-bg-dark">
     <img src="~/frontend/images/destination-5.jpg" class="card-img" alt="...">
     <div class="card-img-overlay">
-
         <div class="container">
              <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed">
                 <div class="container">
                     <a class="navbar-brand" href="{{url('/')}}">JawaTengah</a>
-
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -18,13 +18,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="{{url('/')}}">Beranda</a>
+                               <a class="nav-link" asp-action="Index" asp-controller="Main">Beranda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{url('/wisatas')}}">Wisata</a>
+                                <a class="nav-link" asp-action="Index" asp-controller="Destinasi">Wisata</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{url('/abouts')}}">Tentang Kami</a>
+                                <a class="nav-link" asp-action="Index" asp-controller="About">Tentang Kami</a>
                             </li>
                         </ul>
                     </div>
@@ -72,24 +72,23 @@
                 melihat semuanya, kunjungan saja tidak akan cukup untuk menikmati keajaiban Jawa Tengah.</p>
             <hr class="border-dark border-2 ">
             <h1 class="b">Jelajahi Berbagai Wisata diJawa Tengah</h1>
-        
-     
             
-      
         <div class="row row-cols-1 row-cols-md-3 g-4">
+         @foreach (var item in Model)
+                        {
             <div class="col">
                 <div class="card h-100">
                     <div class="img-hover-zoom">
-                        <a href="{{ url('show' , $data->id) }}">
-                            <img src="{{ asset('images/wisata/' . $data->cover) }}" alt=""
-                                class="card-img-top" alt="...">
-                        </a>
+                          <a href="@Url.Action("Show", "Destinasi", new { id = item.Id })">
+                    <img src="@Url.Content("~/images/" + item.Foto_Wisata)" class="card-img-top" />
+                </a>
                     </div>
                     <div class="card-body text-center">
-                        <h5 class="card-title"></h5>
+                        <h5 class="card-title">@item.Nama_Wisata</h5>
                     </div>
                 </div>
             </div>
+        }
         </div>
     </div>
 </div>

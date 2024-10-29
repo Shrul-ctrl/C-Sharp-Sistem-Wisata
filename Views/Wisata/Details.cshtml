@@ -1,7 +1,7 @@
 @model sistem_wisata.Models.Wisata
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Details Wisata";
 }
 
 <h3>Detail Data Tempat Wisata</h3>
@@ -22,10 +22,10 @@
                 @Html.DisplayFor(model => model.Deskripsi)
             </dd>
             <dt class="col-sm-2">
-               Foto Wisata
+                Foto Wisata
             </dt>
             <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Foto_Wisata)
+                <img src="@Url.Content("~/images/" + Model.Foto_Wisata)" style="width:300px;height:auto;"/>
             </dd>
             <dt class="col-sm-2">
                 @Html.DisplayNameFor(model => model.Kategori)
@@ -40,9 +40,9 @@
                 @Html.DisplayFor(model => model.Lokasi.Nama_Lokasi)
             </dd>
         </dl>
-    <div>
-        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary btn-sm">Edit</a> |
-        <a asp-action="Index">Kembali ke list</a>
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary btn-sm">Edit</a> |
+            <a asp-action="Index">Kembali ke list</a>
+        </div>
     </div>
-    </div>
-</div>  
+</div>

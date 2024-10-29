@@ -281,3 +281,4 @@ D:\zbahasa\DotNet\SistemWisata\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.S
 D:\zbahasa\DotNet\SistemWisata\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\zbahasa\DotNet\SistemWisata\obj\Debug\net8.0\SistemWisata.csproj.AssemblyReference.cache
 D:\zbahasa\DotNet\SistemWisata\obj\Debug\net8.0\SistemWi.05753285.Up2Date
+D:\zbahasa\DotNet\SistemWisata\obj\Debug\net8.0\SistemWisata.sourcelink.json

@@ -1,27 +1,37 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using sistem_wisata.Data;
 using SistemWisata.Models;
 
 namespace SistemWisata.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly sistem_wisataContext _context;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(sistem_wisataContext context)
     {
-        _logger = logger;
+        _context = context;
     }
 
     public IActionResult Index()
     {
+        var lokasiCount = _context.Lokasi.Count();
+        var kategoriCount = _context.Kategori.Count();
+        var wisataCount = _context.Wisata.Count();
+
+        ViewBag.LokasiCount = lokasiCount;
+        ViewBag.kategoriCount = kategoriCount;
+        ViewBag.WisataCount = wisataCount;
+
         return View();
     }
-    
+
     [HttpGet("main")]
-    public IActionResult Main()
+    public async Task<IActionResult> main()
     {
-        return View();
+        return View(await _context.Wisata.ToListAsync());
     }
 
     [HttpGet("about")]
@@ -30,10 +40,25 @@ public class HomeController : Controller
         return View();
     }
 
-    [HttpGet("destinasi")]
-    public IActionResult destinasi()
+    [HttpGet("Destinasi/Show/{id}")]
+    public async Task<IActionResult> Detail(int id)
     {
-        return View();
+        var wisata = await _context.Wisata
+            .Include(w => w.Kategori) // Include kategori jika Anda ingin mengambil data kategori
+            .FirstOrDefaultAsync(w => w.Id == id);
+
+        if (wisata == null)
+        {
+            return NotFound(); // Jika tidak ditemukan
+        }
+
+        return View(wisata);
+    }
+
+    [HttpGet("destinasi")]
+    public async Task<IActionResult> destinasi()
+    {
+        return View(await _context.Wisata.ToListAsync());
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
