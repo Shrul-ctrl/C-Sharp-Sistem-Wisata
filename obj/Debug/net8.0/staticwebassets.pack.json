@@ -1,0 +1,2205 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SistemWisata.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SistemWisata.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\css\\bootstrap-extended.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-extended.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\css\\extra-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\extra-icons.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\css\\pace.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pace.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\fonts\\LineIcons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.eot"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\fonts\\LineIcons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.svg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\fonts\\LineIcons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.ttf"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\fonts\\LineIcons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.woff"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\fonts\\LineIcons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.woff2"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\01.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\02.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\03.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\04.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\05.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\06.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\07.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\07.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\08.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\08.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\09.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\09.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\10.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\11.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\12.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\13.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\14.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\15.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\15.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\16.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\16.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\17.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\17.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\18.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\18.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\19.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\19.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\20.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\20.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\amazon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\amazon.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\apple.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\apple.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\behance.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\behance.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\gift-box-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\gift-box-2.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\gift-box-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\gift-box-3.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\gift-box.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\gift-box.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\party-popper.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\party-popper.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\paypal.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\apps\\twitter-circle.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apps\\twitter-circle.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\auth\\forgot-password1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\forgot-password1.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\auth\\login1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\login1.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\auth\\register1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\register1.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\auth\\reset-password1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\reset-password1.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\bg-themes\\body-background-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-themes\\body-background-1.webp"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\county\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\county\\01.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\county\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\county\\02.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\county\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\county\\03.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\county\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\county\\04.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\county\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\county\\05.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\county\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\county\\06.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\county\\07.png",
+      "PackagePath": "staticwebassets\\assets\\images\\county\\07.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\county\\08.png",
+      "PackagePath": "staticwebassets\\assets\\images\\county\\08.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon-32x32.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\gallery\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\02.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\gallery\\18.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\18.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\gallery\\welcome-back-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\welcome-back-3.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\logo1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo1.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\01.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\02.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\03.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\04.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\05.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\06.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\07.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\07.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\08.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\08.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\09.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\09.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\10.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\11.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\12.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\megaIcons\\13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\megaIcons\\13.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\projects\\angular.png",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\angular.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\projects\\bootstrap.png",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\bootstrap.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\projects\\django.png",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\django.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\projects\\magento.png",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\magento.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\projects\\python.png",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\python.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\projects\\react.png",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\react.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\images\\projects\\vue.png",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\vue.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\js\\dashboard1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboard1.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\js\\dashboard2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboard2.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\js\\data-widgets.js",
+      "PackagePath": "staticwebassets\\assets\\js\\data-widgets.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\js\\index.js",
+      "PackagePath": "staticwebassets\\assets\\js\\index.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\js\\index2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\index2.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\js\\pace.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pace.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\Drag-And-Drop\\dist\\imageuploadify.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\Drag-And-Drop\\dist\\imageuploadify.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\Drag-And-Drop\\dist\\imageuploadify.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\Drag-And-Drop\\dist\\imageuploadify.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\apexchart\\apex-custom-chart.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\apexchart\\apex-custom-chart.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\apexchart\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\apexchart\\apexcharts.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\apexchart\\data-cards.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\apexchart\\data-cards.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\bs-stepper\\css\\bs-stepper-custom.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bs-stepper\\css\\bs-stepper-custom.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\bs-stepper\\css\\bs-stepper.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bs-stepper\\css\\bs-stepper.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\bs-stepper\\css\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bs-stepper\\css\\custom.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\bs-stepper\\js\\bs-stepper.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bs-stepper\\js\\bs-stepper.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\bs-stepper\\js\\index.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bs-stepper\\js\\index.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\bs-stepper\\js\\index.spec.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bs-stepper\\js\\index.spec.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\bs-stepper\\js\\listeners.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bs-stepper\\js\\listeners.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\bs-stepper\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bs-stepper\\js\\main.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\bs-stepper\\js\\polyfill.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bs-stepper\\js\\polyfill.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\bs-stepper\\js\\util.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bs-stepper\\js\\util.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\chartjs\\js\\chart.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\chartjs\\js\\chart.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\chartjs\\js\\chartjs-custom.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\chartjs\\js\\chartjs-custom.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\datatable\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatable\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\datatable\\js\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatable\\js\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\datatable\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatable\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\cors\\jquery.postmessage-transport.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\cors\\jquery.postmessage-transport.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\cors\\jquery.xdr-transport.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\cors\\jquery.xdr-transport.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\fancy_fileupload.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\fancy_fileupload.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\fancy_microphone.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\fancy_microphone.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\fancy_okay.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\fancy_okay.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\fancy_remove.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\fancy_remove.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\fancy_upload.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\fancy_upload.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\fancy_webcam.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\fancy_webcam.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\jquery.fancy-fileupload.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\jquery.fancy-fileupload.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\jquery.fileupload.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\jquery.fileupload.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\jquery.iframe-transport.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\jquery.iframe-transport.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fancy-file-uploader\\jquery.ui.widget.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancy-file-uploader\\jquery.ui.widget.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\form-repeater\\repeater.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-repeater\\repeater.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fullcalendar\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fullcalendar\\css\\main.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fullcalendar\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fullcalendar\\css\\main.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fullcalendar\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fullcalendar\\js\\main.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\fullcalendar\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fullcalendar\\js\\main.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\gmaps\\map-custom-script.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\gmaps\\map-custom-script.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\input-tags\\css\\tagsinput.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\input-tags\\css\\tagsinput.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\input-tags\\js\\tagsinput.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\input-tags\\js\\tagsinput.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\metismenu\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\metismenu\\metisMenu.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\metismenu\\metisMenu.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\metismenu\\metisMenu.min.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\metismenu\\metisMenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\metismenu\\metisMenu.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\metismenu\\metisMenu.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\metismenu\\metisMenu.min.js.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\metismenu\\mm-vertical.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\metismenu\\mm-vertical.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\css\\lobibox.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\css\\lobibox.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\css\\lobibox.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\css\\lobibox.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\img\\1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\img\\2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\img\\3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\img\\4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\img\\5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\img\\6.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\js\\lobibox.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\js\\lobibox.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\js\\lobibox.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\js\\lobibox.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\js\\messageboxes.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\js\\messageboxes.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\js\\messageboxes.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\js\\messageboxes.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\js\\notification-custom-script.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\js\\notification-custom-script.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\js\\notifications.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\js\\notifications.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\js\\notifications.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\js\\notifications.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\sounds\\sound1.ogg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\sounds\\sound1.ogg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\sounds\\sound2.ogg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\sounds\\sound2.ogg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\sounds\\sound3.ogg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\sounds\\sound3.ogg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\sounds\\sound4.ogg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\sounds\\sound4.ogg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\sounds\\sound5.ogg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\sounds\\sound5.ogg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\notifications\\sounds\\sound6.ogg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\notifications\\sounds\\sound6.ogg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\peity\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\peity\\jquery.peity.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\perfect-scrollbar\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\perfect-scrollbar\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\perfect-scrollbar\\js\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\perfect-scrollbar\\js\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\select2\\css\\select2-bootstrap4.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\select2\\css\\select2-bootstrap4.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\select2\\js\\select2-custom.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\select2\\js\\select2-custom.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\simplebar\\css\\simplebar.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\simplebar\\css\\simplebar.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\simplebar\\js\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\simplebar\\js\\simplebar.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\validation\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\validation\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\validation\\validation-script.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\validation\\validation-script.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\vectormap\\jquery-jvectormap-2.0.2.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\vectormap\\jquery-jvectormap-2.0.2.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\vectormap\\jquery-jvectormap-2.0.2.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\vectormap\\jquery-jvectormap-2.0.2.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\vectormap\\jquery-jvectormap-au-mill.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\vectormap\\jquery-jvectormap-au-mill.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\vectormap\\jquery-jvectormap-in-mill.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\vectormap\\jquery-jvectormap-in-mill.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\vectormap\\jquery-jvectormap-uk-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\vectormap\\jquery-jvectormap-uk-mill-en.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\vectormap\\jquery-jvectormap-us-aea-en.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\vectormap\\jquery-jvectormap-us-aea-en.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\vectormap\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\vectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\assets\\plugins\\vectormap\\jvectormap.custom.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\vectormap\\jvectormap.custom.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\css\\css-admin.css",
+      "PackagePath": "staticwebassets\\frontend\\css\\css-admin.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\css\\css-user.css",
+      "PackagePath": "staticwebassets\\frontend\\css\\css-user.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\css\\ruang-admin.css",
+      "PackagePath": "staticwebassets\\frontend\\css\\ruang-admin.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\css\\ruang-admin.min.css",
+      "PackagePath": "staticwebassets\\frontend\\css\\ruang-admin.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\hexa\\assets\\css\\owl-carousel.css",
+      "PackagePath": "staticwebassets\\frontend\\hexa\\assets\\css\\owl-carousel.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\hexa\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\frontend\\hexa\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\hexa\\assets\\js\\jquery-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\frontend\\hexa\\assets\\js\\jquery-2.1.0.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\hexa\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\frontend\\hexa\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Angkor Wat (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\Angkor Wat (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Angkor Wat.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\Angkor Wat.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Bali.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\Bali.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Borobudur_Temple.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\Borobudur_Temple.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Inspiring Photo_ 20222 #12032437.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\Inspiring Photo_ 20222 #12032437.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Java.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\Java.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Kalimantan.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\Kalimantan.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Kelimutu volcano, Flores Island, Indonesia (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\Kelimutu volcano, Flores Island, Indonesia (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Maluku.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\Maluku.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Sulawesi.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\Sulawesi.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Sumatera.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\Sumatera.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\Wego Indonesia Travel Blog.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\Wego Indonesia Travel Blog.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\about-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\about-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\about.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\art-culture.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\art-culture.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\background-2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\background-2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\backpacking.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\backpacking.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\banner-sumatera-3.avif",
+      "PackagePath": "staticwebassets\\frontend\\images\\banner-sumatera-3.avif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\banner.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\banner.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\beaches.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\beaches.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\bg_1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\bg_2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\bg_2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\bg_3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\bg_3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\bg_4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\bg_4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\bg_5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\bg_5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\bhutan.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\bhutan.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\booking.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\booking.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\bromo-header-2.avif",
+      "PackagePath": "staticwebassets\\frontend\\images\\bromo-header-2.avif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\chaina.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\chaina.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-10.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-10.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-11.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-11.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-12.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-12.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-6.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-6.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-7.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-7.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-8.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-8.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\destination-9.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\destination-9.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\download (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\download (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\download.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\download.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\1156download (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\1156download (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\1604backpacking.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\1604backpacking.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\1735boy.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\1735boy.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\1786Inspiring Photo_ 20222 #12032437.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\1786Inspiring Photo_ 20222 #12032437.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\2057Kelimutu volcano, Flores Island, Indonesia (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\2057Kelimutu volcano, Flores Island, Indonesia (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\2238pangandaran.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\2238pangandaran.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\2268about-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\2268about-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\3157Wego Indonesia Travel Blog.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\3157Wego Indonesia Travel Blog.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\3302download (3).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\3302download (3).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\4096pangandaran.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\4096pangandaran.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\5088potret-perayaan-waisak-di-sejumlah-daerah_169.jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\5088potret-perayaan-waisak-di-sejumlah-daerah_169.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\7362Angkor Wat.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\7362Angkor Wat.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\7696images (2).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\7696images (2).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\7767WhatsApp Image 2024-06-05 at 18.37.46 (1).jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\7767WhatsApp Image 2024-06-05 at 18.37.46 (1).jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\8134about.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\8134about.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\8285Inspiring Photo_ 20222 #12032437.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\8285Inspiring Photo_ 20222 #12032437.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\8400Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\8400Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\8467Angkor Wat.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\8467Angkor Wat.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\9015about-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\9015about-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\9661potret-perayaan-waisak-di-sejumlah-daerah_169.jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\9661potret-perayaan-waisak-di-sejumlah-daerah_169.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\9717potret-perayaan-waisak-di-sejumlah-daerah_169.jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\9717potret-perayaan-waisak-di-sejumlah-daerah_169.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\event\\9798bg_5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\event\\9798bg_5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\food.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\food.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\gal_1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\gal_1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\gal_2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\gal_2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\gal_3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\gal_3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\gal_4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\gal_4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\gal_5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\gal_5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\gal_6.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\gal_6.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\header-bali-nusa-tenggara.avif",
+      "PackagePath": "staticwebassets\\frontend\\images\\header-bali-nusa-tenggara.avif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\header-kalimantan.avif",
+      "PackagePath": "staticwebassets\\frontend\\images\\header-kalimantan.avif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\header-sulawesi-2.avif",
+      "PackagePath": "staticwebassets\\frontend\\images\\header-sulawesi-2.avif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hero-slider-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hero-slider-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hero-slider-2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hero-slider-2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hero-slider-3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hero-slider-3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hero-slider-4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hero-slider-4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hero-slider-5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hero-slider-5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hero_1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hero_1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hill.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hill.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hill.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\hill.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hotel-resto-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hotel-resto-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hotel-resto-2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hotel-resto-2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hotel-resto-3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hotel-resto-3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hotel-resto-4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hotel-resto-4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hotel-resto-5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hotel-resto-5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hotel-resto-6.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hotel-resto-6.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hotel-resto-7.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hotel-resto-7.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hotel-resto-8.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hotel-resto-8.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\hotel-resto-9.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\hotel-resto-9.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\image_1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\image_1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\image_2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\image_2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\image_3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\image_3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\image_4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\image_4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\image_5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\image_5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\image_6.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\image_6.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\images.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\about-left-image.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\about-left-image.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\about-us-page-heading.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\about-us-page-heading.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\baner-right-image-01.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\baner-right-image-01.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\baner-right-image-02.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\baner-right-image-02.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\baner-right-image-03.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\baner-right-image-03.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\baner-right-image-04.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\baner-right-image-04.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\close.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\close.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\explore-image-01.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\explore-image-01.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\explore-image-02.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\explore-image-02.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\instagram-01.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\instagram-01.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\instagram-02.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\instagram-02.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\instagram-03.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\instagram-03.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\instagram-04.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\instagram-04.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\instagram-05.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\instagram-05.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\instagram-06.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\instagram-06.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\kid-01.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\kid-01.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\kid-02.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\kid-02.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\kid-03.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\kid-03.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\left-banner-image.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\left-banner-image.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\logo.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\men-01.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\men-01.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\men-02.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\men-02.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\men-03.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\men-03.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\next.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\next.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\prev.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\products-page-heading.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\products-page-heading.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\service-01.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\service-01.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\service-02.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\service-02.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\service-03.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\service-03.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\single-product-01.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\single-product-01.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\single-product-02.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\single-product-02.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\team-member-01.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\team-member-01.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\team-member-02.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\team-member-02.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\team-member-03.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\team-member-03.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\white-logo.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\white-logo.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\women-01.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\women-01.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\women-02.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\women-02.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\images\\women-03.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\images\\women-03.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\img_1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\img_1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\img_2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\img_2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\img_3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\img_3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\img_4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\img_4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\india-kashmir.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\india-kashmir.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\indonesia.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\indonesia.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\1494about.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\1494about.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\1574Kelimutu volcano, Flores Island, Indonesia (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\1574Kelimutu volcano, Flores Island, Indonesia (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\2068WhatsApp Image 2024-06-05 at 18.37.45.jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\2068WhatsApp Image 2024-06-05 at 18.37.45.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\2228Angkor Wat (2).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\2228Angkor Wat (2).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\2264Kelimutu volcano, Flores Island, Indonesia (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\2264Kelimutu volcano, Flores Island, Indonesia (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\2448beaches.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\2448beaches.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\3443Inspiring Photo_ 20222 #12032437.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\3443Inspiring Photo_ 20222 #12032437.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\3696Wego Indonesia Travel Blog.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\3696Wego Indonesia Travel Blog.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\3721Angkor Wat (2).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\3721Angkor Wat (2).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\3756WhatsApp Image 2024-06-05 at 18.37.45.jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\3756WhatsApp Image 2024-06-05 at 18.37.45.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\3983backpacking.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\3983backpacking.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\4136download.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\4136download.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\4206Angkor Wat (2).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\4206Angkor Wat (2).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\4303Angkor Wat (4).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\4303Angkor Wat (4).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\4314Diskusi 8 Bahasa Inggris.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\4314Diskusi 8 Bahasa Inggris.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\4745backpacking.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\4745backpacking.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\5063Wego Indonesia Travel Blog.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\5063Wego Indonesia Travel Blog.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\5144art-culture.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\5144art-culture.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\5358download.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\5358download.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\5599Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\5599Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\5652download (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\5652download (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\5747Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\5747Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\6111Kelimutu volcano, Flores Island, Indonesia (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\6111Kelimutu volcano, Flores Island, Indonesia (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\6126background-2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\6126background-2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\6137Angkor Wat (3).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\6137Angkor Wat (3).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\6208Diskusi 8 Bahasa Inggris.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\6208Diskusi 8 Bahasa Inggris.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\6316about-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\6316about-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\6455about-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\6455about-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\6589services-3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\6589services-3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\6645Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\6645Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\6936destination-8.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\6936destination-8.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\7052Wego Indonesia Travel Blog.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\7052Wego Indonesia Travel Blog.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\7277Angkor Wat.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\7277Angkor Wat.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\7464Angkor Wat.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\7464Angkor Wat.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\7800beaches.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\7800beaches.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\7940Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\7940Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\8308Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\8308Outdoor Bekleidung für Damen – Plane deine Wanderung.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\8420Wego Indonesia Travel Blog.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\8420Wego Indonesia Travel Blog.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\8684Wego Indonesia Travel Blog.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\8684Wego Indonesia Travel Blog.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\8773WhatsApp Image 2024-06-05 at 18.37.46.jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\8773WhatsApp Image 2024-06-05 at 18.37.46.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\8781WhatsApp Image 2024-06-05 at 18.37.46.jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\8781WhatsApp Image 2024-06-05 at 18.37.46.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\9418images.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\9418images.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\9425Wego Indonesia Travel Blog.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\9425Wego Indonesia Travel Blog.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\9431Kelimutu volcano, Flores Island, Indonesia.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\9431Kelimutu volcano, Flores Island, Indonesia.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\9504Wego Indonesia Travel Blog.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\9504Wego Indonesia Travel Blog.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kategori\\9651background-2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\kategori\\9651background-2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kathmandu-v.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\kathmandu-v.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\kathmandu.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\kathmandu.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\loc.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\loc.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\logo.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\logoWisata.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\logoWisata.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\logoo.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\logoo.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\maldives-v.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\maldives-v.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\maldives.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\maldives.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\maldives.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\maldives.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\pemandangan_gunung.jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\pemandangan_gunung.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\person_1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\person_2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\person_3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\person_4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\place-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\place-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\place-2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\place-2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\place-3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\place-3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\place-4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\place-4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\place-5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\place-5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\raja-ampat-header-3.avif",
+      "PackagePath": "staticwebassets\\frontend\\images\\raja-ampat-header-3.avif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\services-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\services-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\services-2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\services-2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\services-3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\services-3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\services-4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\services-4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\slider-1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\slider-1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\slider-2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\slider-2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\slider-3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\slider-3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\slider-4.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\slider-4.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\slider-5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\slider-5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\slider_1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\slider_1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\slider_2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\slider_2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\slider_3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\slider_3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\srilanka.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\srilanka.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\tanzania.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\tanzania.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wild.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\wild.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\1367art-culture.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\1367art-culture.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\1438images (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\1438images (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\1468slider-3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\1468slider-3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\1501boy.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\1501boy.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\1694slider-5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\1694slider-5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\2018pangandaran.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\2018pangandaran.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\2177Borobudur_Temple.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\2177Borobudur_Temple.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\2220Angkor Wat (2).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\2220Angkor Wat (2).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\3066images.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\3066images.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\3366slider-5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\3366slider-5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\3530borobudur.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\3530borobudur.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\3834slider-5.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\3834slider-5.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\3921images (2).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\3921images (2).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\4171bg_1.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\4171bg_1.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\4180slider-3.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\4180slider-3.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\5248borobudur.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\5248borobudur.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\5283Gunung.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\5283Gunung.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\5320images (3).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\5320images (3).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\5346images (2).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\5346images (2).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\5348images (3).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\5348images (3).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\5765girl.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\5765girl.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\6509logo.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\6509logo.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\6602Java.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\6602Java.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\6605Borobudur_Temple.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\6605Borobudur_Temple.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\6652Gunung.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\6652Gunung.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\6958download (3).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\6958download (3).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\7013Bali.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\7013Bali.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\7250Angkor Wat (2).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\7250Angkor Wat (2).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\7587background-2.jpg",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\7587background-2.jpg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\7619images (3).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\7619images (3).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\7740logo.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\7740logo.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\7767man.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\7767man.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\7811images (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\7811images (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\7945borobudur.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\7945borobudur.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\8033images (3).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\8033images (3).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\8611download (2).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\8611download (2).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\9075images (3).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\9075images (3).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\9340download (1).jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\9340download (1).jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\9417borobudur.jfif",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\9417borobudur.jfif"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\9463art-culture.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\9463art-culture.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\wisata\\9626beaches.png",
+      "PackagePath": "staticwebassets\\frontend\\images\\wisata\\9626beaches.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\z-1.jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\z-1.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\z-2.jpeg",
+      "PackagePath": "staticwebassets\\frontend\\images\\z-2.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\images\\z-3.webp",
+      "PackagePath": "staticwebassets\\frontend\\images\\z-3.webp"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\rhea\\assets\\css\\theme.css",
+      "PackagePath": "staticwebassets\\frontend\\rhea\\assets\\css\\theme.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\rhea\\assets\\js\\theme.js",
+      "PackagePath": "staticwebassets\\frontend\\rhea\\assets\\js\\theme.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\rhea\\vendors\\@popperjs\\popper.min.js",
+      "PackagePath": "staticwebassets\\frontend\\rhea\\vendors\\@popperjs\\popper.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\rhea\\vendors\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\frontend\\rhea\\vendors\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\rhea\\vendors\\bootstrap\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\frontend\\rhea\\vendors\\bootstrap\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\rhea\\vendors\\is\\is.min.js",
+      "PackagePath": "staticwebassets\\frontend\\rhea\\vendors\\is\\is.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\rhea\\vendors\\plyr\\plyr.css",
+      "PackagePath": "staticwebassets\\frontend\\rhea\\vendors\\plyr\\plyr.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\rhea\\vendors\\plyr\\plyr.polyfilled.min.js",
+      "PackagePath": "staticwebassets\\frontend\\rhea\\vendors\\plyr\\plyr.polyfilled.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\user\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\frontend\\user\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\user\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\frontend\\user\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\frontend\\user\\css\\style.css",
+      "PackagePath": "staticwebassets\\frontend\\user\\css\\style.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\images\\download.jpeg",
+      "PackagePath": "staticwebassets\\images\\download.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\images\\php.png",
+      "PackagePath": "staticwebassets\\images\\php.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\blue-theme.css",
+      "PackagePath": "staticwebassets\\sass\\blue-theme.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\blue-theme.css.map",
+      "PackagePath": "staticwebassets\\sass\\blue-theme.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\blue-theme.scss",
+      "PackagePath": "staticwebassets\\sass\\blue-theme.scss"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\bordered-theme.css",
+      "PackagePath": "staticwebassets\\sass\\bordered-theme.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\bordered-theme.css.map",
+      "PackagePath": "staticwebassets\\sass\\bordered-theme.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\bordered-theme.scss",
+      "PackagePath": "staticwebassets\\sass\\bordered-theme.scss"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\dark-theme.css",
+      "PackagePath": "staticwebassets\\sass\\dark-theme.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\dark-theme.css.map",
+      "PackagePath": "staticwebassets\\sass\\dark-theme.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\dark-theme.scss",
+      "PackagePath": "staticwebassets\\sass\\dark-theme.scss"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\main.css",
+      "PackagePath": "staticwebassets\\sass\\main.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\main.css.map",
+      "PackagePath": "staticwebassets\\sass\\main.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\main.scss",
+      "PackagePath": "staticwebassets\\sass\\main.scss"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\responsive.css",
+      "PackagePath": "staticwebassets\\sass\\responsive.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\responsive.css.map",
+      "PackagePath": "staticwebassets\\sass\\responsive.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\responsive.scss",
+      "PackagePath": "staticwebassets\\sass\\responsive.scss"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\semi-dark.css",
+      "PackagePath": "staticwebassets\\sass\\semi-dark.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\semi-dark.css.map",
+      "PackagePath": "staticwebassets\\sass\\semi-dark.css.map"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\sass\\semi-dark.scss",
+      "PackagePath": "staticwebassets\\sass\\semi-dark.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SistemWisata.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SistemWisata.props",
+      "PackagePath": "build\\SistemWisata.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SistemWisata.props",
+      "PackagePath": "buildMultiTargeting\\SistemWisata.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SistemWisata.props",
+      "PackagePath": "buildTransitive\\SistemWisata.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,59 @@
+@model IEnumerable<sistem_wisata.Models.Wisata>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+@* <form asp-controller="Wisata" asp-action="Index">
+<p>
+<label>Cari Wisata: <input type="text" name="SearchString" /></label>
+<input type="submit" value="Filter" />
+</p>
+</form> *@
+
+<h3>Destinasi Wisata</h3>
+<hr>
+<div class="card">
+    <div class="card-body">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+        <a asp-action="Create" class="btn btn-primary mb-3">Buat Data Baru</a>
+        <table id="example" class="table" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Nama Wisata</th>
+                    <th>Deskripsi</th>
+                    <th>Foto Wisata</th>
+                    <th>Kategori</th>
+                    <th>Lokasi</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Nama_Wisata)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Deskripsi)</td>
+                        <td><img src="@Url.Content("~/images/" + item.Foto_Wisata)" style="width:100px;height:auto;" /></td>
+                        <td>@Html.DisplayFor(modelItem => item.Kategori.Nama_Kategori)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Lokasi.Nama_Lokasi)</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id"><i
+                                    class="material-icons-outlined fs-5">edit</i></a> |
+                            <a asp-action="Details" asp-route-id="@item.Id"><i
+                                    class="material-icons-outlined fs-5">visibility</i></a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id"><i
+                                    class="material-icons-outlined fs-5">delete</i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

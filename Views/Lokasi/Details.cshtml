@@ -1,0 +1,36 @@
+@model sistem_wisata.Models.Lokasi
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h3>Detail Data Lokasi Wisata</h3>
+<hr />
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Nama_Lokasi)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nama_Lokasi)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Provinsi)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Provinsi)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Kabupaten)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Kabupaten)
+            </dd>
+        </dl>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary btn-sm">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+    </div>
+</div>

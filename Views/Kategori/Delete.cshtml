@@ -1,0 +1,27 @@
+@model sistem_wisata.Models.Kategori
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3>Hapus Data Kategori</h3>
+<h6>Apakah anda yakin ingin Menghapus?</h6>
+<hr />
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-2">
+                Kategori
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nama_Kategori)
+            </dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Hapus" class="btn btn-danger btn-sm" /> |
+            <a asp-action="Index">Back to List</a>
+        </form>
+    </div>
+</div>

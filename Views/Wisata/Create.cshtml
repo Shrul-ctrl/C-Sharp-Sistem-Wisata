@@ -1,0 +1,51 @@
+@model sistem_wisata.Models.Wisata
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h3>Buat Data Tempat Wisata Baru</h3>
+<hr />
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="Create" enctype="multipart/form-data" method="post">
+                    @Html.AntiForgeryToken() 
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Nama_Wisata" class="control-label">Nama Wisata</label>
+                        <input asp-for="Nama_Wisata" class="form-control" />            
+                        <span asp-validation-for="Nama_Wisata" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="KategoriId" class="control-label mt-2">Kategori</label>
+                        <select asp-for="KategoriId" class="form-control mb-2" asp-items="ViewBag.KategoriId"></select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="LokasiId" class="control-label">Lokasi Wisata</label>
+                        <select asp-for="LokasiId" class="form-control mb-2" asp-items="ViewBag.LokasiId"></select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Deskripsi" class="control-label"></label>
+                        <textarea asp-for="Deskripsi" class="form-control mb-2"> </textarea>
+                        <span asp-validation-for="Deskripsi" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Foto_Wisata">Foto Wisata</label>
+                        <input asp-for="Foto_Wisata" type="file" class="form-control" />
+                        <span asp-validation-for="Foto_Wisata" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-2">
+                        <input type="submit" value="Buat" class="btn btn-primary btn-sm " />
+                        |<a asp-action="Index">Kembali ke list</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        @section Scripts {
+            @{
+                await Html.RenderPartialAsync("_ValidationScriptsPartial");
+            }
+        }

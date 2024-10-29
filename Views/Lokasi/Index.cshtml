@@ -1,0 +1,53 @@
+@model IEnumerable<sistem_wisata.Models.Lokasi>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3>Lokasi Destinasi Wisata</h3>
+<hr>
+<div class="card">
+    <div class="card-body">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+        <a asp-action="Create" class="btn btn-primary mb-3">Buat Data Baru</a>
+        <table id="example" class="table" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Lokasi</th>
+                    <th>Provinsi</th>
+                    <th>Kabupaten</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nama_Lokasi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Provinsi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Kabupaten)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id"><i
+                                    class="material-icons-outlined fs-5">edit</i></a> |
+                            <a asp-action="Details" asp-route-id="@item.Id"><i
+                                    class="material-icons-outlined fs-5">visibility</i></a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id"><i
+                                    class="material-icons-outlined fs-5">delete</i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

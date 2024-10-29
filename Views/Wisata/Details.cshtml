@@ -1,0 +1,48 @@
+@model sistem_wisata.Models.Wisata
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h3>Detail Data Tempat Wisata</h3>
+<hr />
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-2">
+                Nama Wisata
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nama_Wisata)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Deskripsi)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Deskripsi)
+            </dd>
+            <dt class="col-sm-2">
+               Foto Wisata
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Foto_Wisata)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Kategori)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Kategori.Nama_Kategori)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Lokasi)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Lokasi.Nama_Lokasi)
+            </dd>
+        </dl>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary btn-sm">Edit</a> |
+        <a asp-action="Index">Kembali ke list</a>
+    </div>
+    </div>
+</div>  

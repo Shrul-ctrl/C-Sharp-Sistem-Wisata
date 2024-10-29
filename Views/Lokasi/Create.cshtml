@@ -1,0 +1,44 @@
+@model sistem_wisata.Models.Lokasi
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h3>Buat Data Lokasi Wisata Baru</h3>
+<hr />
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Nama_Lokasi" class="control-label">Nama Lokasi</label>
+                        <input asp-for="Nama_Lokasi" class="form-control" />
+                        <span asp-validation-for="Nama_Lokasi" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Provinsi" class="control-label mt-2"></label>
+                        <input asp-for="Provinsi" class="form-control mb-2" />
+                        <span asp-validation-for="Provinsi" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Kabupaten" class="control-label"></label>
+                        <input asp-for="Kabupaten" class="form-control mb-2" />
+                        <span asp-validation-for="Kabupaten" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Buat" class="btn btn-primary btn-sm" />
+                        |<a asp-action="Index">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

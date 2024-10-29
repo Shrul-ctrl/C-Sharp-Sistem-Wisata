@@ -1,0 +1,26 @@
+    .table-1 {
+        width: 100rem;
+    }
+
+    .long {
+        width: 10rem;
+    }
+
+    .long-1 {
+        width: 18rem;
+    }
+
+    .dropdown-1 .dropdown-menu {
+        padding: 2px;
+        padding-top: 10px;
+    }
+
+    .profile{
+        width: 400px;
+    }
+
+    .profile img{
+        position: relative;
+        left: 150px;
+        max-width: 100px;
+    }

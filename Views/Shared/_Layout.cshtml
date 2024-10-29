@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>@ViewData["Title"] - SistemWisata</title>
+
+  <!--favicon-->
+  <link rel="icon" href="~/assets/images/favicon-32x32.png" type="image/png" asp-append-version="true">
+
+  <!-- loader-->
+  <link href="~/assets/css/pace.min.css" rel="stylesheet" asp-append-version="true">
+  <script src="~/assets/js/pace.min.js" asp-append-version="true"></script>
+
+  <!--plugins-->
+  <link href="~/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" asp-append-version="true">
+  <link rel="stylesheet" type="text/css" href="~/assets/plugins/metismenu/metisMenu.min.css" asp-append-version="true">
+  <link rel="stylesheet" type="text/css" href="~/assets/plugins/metismenu/mm-vertical.css" asp-append-version="true">
+  <link rel="stylesheet" type="text/css" href="~/assets/plugins/simplebar/css/simplebar.css" asp-append-version="true">
+  <link rel="stylesheet" href="~/assets/plugins/notifications/css/lobibox.min.css" asp-append-version="true">
+
+
+  <!--bootstrap css-->
+  <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true">
+  <link href="~/assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet"
+    asp-append-version="true" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+
+  <!--main css-->
+  <link href="~/assets/css/bootstrap-extended.css" rel="stylesheet" asp-append-version="true">
+  <link href="~/sass/main.css" rel="stylesheet" asp-append-version="true">
+  <link href="~/sass/dark-theme.css" rel="stylesheet" asp-append-version="true">
+  <link href="~/sass/blue-theme.css" rel="stylesheet" asp-append-version="true">
+  <link href="~/sass/semi-dark.css" rel="stylesheet" asp-append-version="true">
+  <link href="~/sass/bordered-theme.css" rel="stylesheet" asp-append-version="true">
+  <link href="~/sass/responsive.css" rel="stylesheet" asp-append-version="true">
+</head>
+
+<body>
+  <!--start header-->
+  <header class="top-header">
+    <nav class="navbar navbar-expand align-items-center gap-4">
+      <div class="btn-toggle">
+        <a href="javascript:;"><i class="material-icons-outlined">menu</i></a>
+      </div>
+      <li class="nav-item dropdown ms-auto">
+        <a href="javascrpt:;" class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
+          <img src="https://placehold.co/110x110/png" class="rounded-circle p-1 border" width="45" height="45" alt="">
+        </a>
+        <div class="dropdown-menu dropdown-user dropdown-menu-end shadow">
+          <a class="dropdown-item  gap-2 py-2" href="javascript:;">
+            <div class="text-center">
+              <img src="https://placehold.co/110x110/png" class="rounded-circle p-1 shadow mb-3" width="90" height="90"
+                alt="">
+              <h5 class="user-name mb-0 fw-bold">Hello, Jhon</h5>
+            </div>
+          </a>
+          <hr class="dropdown-divider">
+          <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+              class="material-icons-outlined">person_outline</i>Profile</a>
+          <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+              class="material-icons-outlined">local_bar</i>Setting</a>
+          <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+              class="material-icons-outlined">dashboard</i>Dashboard</a>
+          <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+              class="material-icons-outlined">account_balance</i>Earning</a>
+          <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+              class="material-icons-outlined">cloud_download</i>Downloads</a>
+          <hr class="dropdown-divider">
+          <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+              class="material-icons-outlined">power_settings_new</i>Logout</a>
+        </div>
+      </li>
+      </ul>
+
+    </nav>
+  </header>
+  <!--end top header-->
+
+
+  <!--start sidebar-->
+  <aside class="sidebar-wrapper" data-simplebar="true">
+    <div class="sidebar-header">
+      <div class="logo-icon">
+        <img src="assets/images/logo-icon.png" class="logo-img" alt="">
+      </div>
+      <div class="logo-name flex-grow-1">
+        <h5 class="mb-0">Sistem Wisata</h5>
+      </div>
+      <div class="sidebar-close">
+        <span class="material-icons-outlined">close</span>
+      </div>
+    </div>
+    <div class="sidebar-nav">
+      <!--navigation-->
+      <ul class="metismenu" id="sidenav">
+        <li>
+          <a asp-area="" asp-controller="Home" asp-action="Index">
+            <div class="parent-icon"><i class="material-icons-outlined">home</i>
+            </div>
+            <div class="menu-title">Dashboard</div>
+          </a>
+        </li>
+        <li class="menu-label">Destinasi Wisata</li>
+        <li>
+          <a asp-action="Index" asp-controller="Kategori">
+            <div class="parent-icon"><i class="material-icons-outlined">category</i></div>
+            <div class="menu-title">Kategori</div>
+          </a>
+        </li>
+        <li>
+          <a asp-action="Index" asp-controller="Lokasi">
+            <div class="parent-icon"><i class="material-icons-outlined">place</i></div>
+            <div class="menu-title">Lokasi</div>
+          </a>
+        </li>
+        <li>
+          <a asp-action="Index" asp-controller="Wisata">
+            <div class="parent-icon"><i class="material-icons-outlined">tour</i></div>
+            <div class="menu-title">Tempat Wisata</div>
+          </a>
+        </li>
+
+      </ul>
+      <!--end navigation-->
+    </div>
+  </aside>
+  <!--end sidebar-->
+  <main class="main-wrapper">
+    <div class="main-content" role="main">
+      <div class="row">
+        @RenderBody()
+
+      </div>
+    </div>
+  </main>
+
+  @* <footer class="border-top footer text-muted">
+  <div class="container">
+  &copy; 2024 - SistemWisata - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+  </div>
+  </footer> *@
+
+  <!--bootstrap js-->
+  <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+
+  <!--plugins-->
+  <script src="~/assets/js/jquery.min.js"></script>
+  <!--plugins-->
+  <script src="~/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+  <script src="~/assets/plugins/metismenu/metisMenu.min.js"></script>
+  <script src="~/assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+  <script src="~/assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script>
+  <script src="~/assets/plugins/apexchart/apexcharts.min.js"></script>
+  <script src="~/assets/plugins/notifications/js/lobibox.min.js"></script>
+  <script src="~/assets/plugins/notifications/js/notifications.min.js"></script>
+  <script src="~/assets/plugins/notifications/js/notification-custom-script.js"></script>
+  <script src="~/assets/plugins/simplebar/js/simplebar.min.js"></script>
+  <script src="~/assets/plugins/peity/jquery.peity.min.js"></script>
+  <script src="~/assets/js/main.js"></script>
+  <script src="~/assets/js/dashboard1.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#example').DataTable();
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      var table = $('#example2').DataTable({
+        lengthChange: false,
+        buttons: ['copy', 'excel', 'pdf', 'print']
+      });
+
+      table.buttons().container()
+        .appendTo('#example2_wrapper .col-md-6:eq(0)');
+    });
+  </script>
+  <script>
+    $(".data-attributes span").peity("donut")
+  </script>
+  <script>
+    new PerfectScrollbar(".user-list")
+  </script>
+
+  @* <script src="~/lib/jquery/dist/jquery.min.js"></script>
+  <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="~/js/site.js" asp-append-version="true"></script> *@
+  @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
