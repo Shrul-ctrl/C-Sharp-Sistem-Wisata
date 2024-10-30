@@ -1,9 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using sistem_wisata.Data;
+using Microsoft.AspNetCore.Identity;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<sistem_wisataContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("sistem_wisataContext") ?? throw new InvalidOperationException("Connection string 'sistem_wisataContext' not found.")));
+
+// Add Identity
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<sistem_wisataContext>()
+    .AddDefaultTokenProviders();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -23,6 +29,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();    
 app.UseAuthorization();
 
 app.MapControllerRoute(

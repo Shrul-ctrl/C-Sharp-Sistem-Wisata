@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zm855aKKUQDGwcfaS4R3d8cyfghGAEEd+NgoTDx2KYA=",
+  "Hash": "XDPvGolU3jHkUL/pU3pM+LMYdF+FCe3A9LMm+N+ktfs=",
   "Source": "SistemWisata",
   "BasePath": "_content/SistemWisata",
   "Mode": "Default",
@@ -8947,12 +8947,12 @@
       "OriginalItemSpec": "wwwroot\\frontend\\user\\css\\style.css"
     },
     {
-      "Identity": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\images\\download.jpeg",
+      "Identity": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\images\\css.png",
       "SourceId": "SistemWisata",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\",
       "BasePath": "_content/SistemWisata",
-      "RelativePath": "images/download.jpeg",
+      "RelativePath": "images/css.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8963,26 +8963,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\download.jpeg"
-    },
-    {
-      "Identity": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\images\\php.png",
-      "SourceId": "SistemWisata",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\",
-      "BasePath": "_content/SistemWisata",
-      "RelativePath": "images/php.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\php.png"
+      "OriginalItemSpec": "wwwroot\\images\\css.png"
     },
     {
       "Identity": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

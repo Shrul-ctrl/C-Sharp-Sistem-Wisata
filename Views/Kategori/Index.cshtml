@@ -20,6 +20,8 @@
             <thead>
                 <tr>
                     <th>Kategori</th>
+                    <th>Created At</th>
+                    <th>Updated At</th>
                     <th>Aksi</th>
                 </tr>
             </thead>
@@ -29,6 +31,12 @@
                     <tr>
                         <td>
                             @Html.DisplayFor(modelItem => item.Nama_Kategori)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreatedAt)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UpdatedAt)
                         </td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.Id"><i

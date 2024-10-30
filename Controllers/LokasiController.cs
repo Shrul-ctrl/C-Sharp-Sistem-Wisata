@@ -69,6 +69,9 @@ namespace SistemWisata.Controllers
                     return View(lokasi);
                 }
 
+                lokasi.CreatedAt = DateTime.UtcNow;
+                lokasi.UpdatedAt = DateTime.UtcNow;
+
                 _context.Add(lokasi);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Data kategori berhasil dibuat!";
@@ -101,30 +104,41 @@ namespace SistemWisata.Controllers
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nama_Lokasi,Provinsi,Kabupaten")] Lokasi lokasi)
         {
             // Cek apakah Lokasi sudah ada
-            var existingLokasi = await _context.Lokasi
-                .FirstOrDefaultAsync(k => k.Nama_Lokasi == lokasi.Nama_Lokasi);
-
-            if (existingLokasi != null)
-            {
-                ModelState.AddModelError("Nama_Lokasi", "Lokasi dengan nama ini sudah ada.");
-                return View(lokasi);
-            }
 
             if (id != lokasi.Id)
             {
                 return NotFound();
             }
+            // var existingLokasi = await _context.Lokasi
+            //     .FirstOrDefaultAsync(k => k.Nama_Lokasi == lokasi.Nama_Lokasi);
+
+            // if (existingLokasi != null)
+            // {
+            //     ModelState.AddModelError("Nama_Lokasi", "Lokasi dengan nama ini sudah ada.");
+            //     return View(lokasi);
+            // }
+
+            var lokasiUpdateAt = await _context.Lokasi.FindAsync(id);
+            if (lokasiUpdateAt == null)
+            {
+                return NotFound();
+            }
+
+            lokasiUpdateAt.Nama_Lokasi = lokasi.Nama_Lokasi;
+            lokasiUpdateAt.Provinsi = lokasi.Provinsi;
+            lokasiUpdateAt.Kabupaten = lokasi.Kabupaten;
+            lokasiUpdateAt.UpdatedAt = DateTime.UtcNow;
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.Update(lokasi);
+                    _context.Update(lokasiUpdateAt);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!LokasiExists(lokasi.Id))
+                    if (!LokasiExists(lokasiUpdateAt.Id))
                     {
                         return NotFound();
                     }

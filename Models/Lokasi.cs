@@ -6,8 +6,10 @@ public class Lokasi
 {
     public int Id { get; set; }
     public string Nama_Lokasi { get; set; }
-    public string Provinsi  { get; set; }
-    public string Kabupaten  { get; set; }
+    public string Provinsi { get; set; }
+    public string Kabupaten { get; set; }
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
 
     public ICollection<Wisata> Wisata { get; set; } = new List<Wisata>();
 

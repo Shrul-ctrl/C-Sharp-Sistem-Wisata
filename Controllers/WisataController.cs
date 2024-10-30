@@ -98,6 +98,10 @@ namespace SistemWisata.Controllers
                     wisata.Foto_Wisata = fileName;
                 }
 
+                wisata.CreatedAt = DateTime.UtcNow;
+                wisata.UpdatedAt = DateTime.UtcNow;
+
+
                 _context.Add(wisata);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Data tempat wisata berhasil dibuat!";
@@ -141,44 +145,56 @@ namespace SistemWisata.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            var wisataUpdateAt = await _context.Wisata.FindAsync(id);
+            if (wisataUpdateAt == null)
             {
-                // Menyimpan nama foto lama
-                var oldFotoWisata = _context.Wisata.AsNoTracking().FirstOrDefault(w => w.Id == id)?.Foto_Wisata;
+                return NotFound();
+            }
 
-                if (Foto_Wisata != null && Foto_Wisata.Length > 0)
+            wisataUpdateAt.Nama_Wisata = wisata.Nama_Wisata;
+            wisataUpdateAt.KategoriId = wisata.KategoriId;
+            wisataUpdateAt.LokasiId = wisata.LokasiId;
+            wisataUpdateAt.Deskripsi = wisata.Deskripsi;
+            wisataUpdateAt.UpdatedAt = DateTime.UtcNow;
+
+            // Menyimpan nama foto lama
+            var oldFotoWisata = _context.Wisata.AsNoTracking().FirstOrDefault(w => w.Id == id)?.Foto_Wisata;
+
+            if (Foto_Wisata != null && Foto_Wisata.Length > 0)
+            {
+                var fileName = Path.GetFileName(Foto_Wisata.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
                 {
-                    var fileName = Path.GetFileName(Foto_Wisata.FileName);
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
-
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await Foto_Wisata.CopyToAsync(stream);
-                    }
-
-                    wisata.Foto_Wisata = fileName;
-
-                    // Hapus foto lama
-                    if (!string.IsNullOrEmpty(oldFotoWisata))
-                    {
-                        var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", oldFotoWisata);
-                        if (System.IO.File.Exists(oldFilePath))
-                        {
-                            System.IO.File.Delete(oldFilePath);
-                        }
-                    }
+                    await Foto_Wisata.CopyToAsync(stream);
                 }
 
+                wisataUpdateAt.Foto_Wisata = fileName;
+
+                // Hapus foto lama
+                if (!string.IsNullOrEmpty(oldFotoWisata))
+                {
+                    var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", oldFotoWisata);
+                    if (System.IO.File.Exists(oldFilePath))
+                    {
+                        System.IO.File.Delete(oldFilePath);
+                    }
+                }
+            }
+
+            if (ModelState.IsValid)
+            {
                 try
                 {
-                    _context.Update(wisata);
+                    _context.Update(wisataUpdateAt);
                     await _context.SaveChangesAsync();
                     TempData["SuccessMessage"] = "Data tempat wisata berhasil diubah!";
                     return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!WisataExists(wisata.Id))
+                    if (!WisataExists(wisataUpdateAt.Id))
                     {
                         return NotFound();
                     }

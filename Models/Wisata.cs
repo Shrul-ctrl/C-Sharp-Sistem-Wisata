@@ -10,6 +10,8 @@ public class Wisata
     public int LokasiId { get; set; }
     public string Deskripsi { get; set; }
     public string? Foto_Wisata { get; set; }
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
 
     public Kategori? Kategori { get; set; }
     public Lokasi? Lokasi { get; set; }

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -16,7 +17,9 @@ namespace SistemWisata.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Nama_Kategori = table.Column<string>(type: "TEXT", nullable: false)
+                    Nama_Kategori = table.Column<string>(type: "TEXT", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    UpdatedAt = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -31,7 +34,9 @@ namespace SistemWisata.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Nama_Lokasi = table.Column<string>(type: "TEXT", nullable: false),
                     Provinsi = table.Column<string>(type: "TEXT", nullable: false),
-                    Kabupaten = table.Column<string>(type: "TEXT", nullable: false)
+                    Kabupaten = table.Column<string>(type: "TEXT", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    UpdatedAt = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -48,7 +53,9 @@ namespace SistemWisata.Migrations
                     KategoriId = table.Column<int>(type: "INTEGER", nullable: false),
                     LokasiId = table.Column<int>(type: "INTEGER", nullable: false),
                     Deskripsi = table.Column<string>(type: "TEXT", nullable: false),
-                    Foto_Wisata = table.Column<string>(type: "TEXT", nullable: true)
+                    Foto_Wisata = table.Column<string>(type: "TEXT", nullable: true),
+                    CreatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    UpdatedAt = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {

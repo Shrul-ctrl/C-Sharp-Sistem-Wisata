@@ -59,7 +59,6 @@ namespace SistemWisata.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Cek apakah kategori sudah ada
                 var existingKategori = await _context.Kategori
                     .FirstOrDefaultAsync(k => k.Nama_Kategori == kategori.Nama_Kategori);
 
@@ -68,6 +67,9 @@ namespace SistemWisata.Controllers
                     ModelState.AddModelError("Nama_Kategori", "Kategori dengan nama ini sudah ada.");
                     return View(kategori);
                 }
+
+                kategori.CreatedAt = DateTime.UtcNow;
+                kategori.UpdatedAt = DateTime.UtcNow;
 
                 _context.Add(kategori);
                 await _context.SaveChangesAsync();
@@ -100,8 +102,13 @@ namespace SistemWisata.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nama_Kategori")] Kategori kategori)
         {
+            if (id != kategori.Id)
+            {
+                return NotFound();
+            }
+
             var existingKategori = await _context.Kategori
-                   .FirstOrDefaultAsync(k => k.Nama_Kategori == kategori.Nama_Kategori);
+                    .FirstOrDefaultAsync(k => k.Nama_Kategori == kategori.Nama_Kategori);
 
             if (existingKategori != null)
             {
@@ -109,21 +116,25 @@ namespace SistemWisata.Controllers
                 return View(kategori);
             }
 
-            if (id != kategori.Id)
+            var kategoriUpdateAt = await _context.Kategori.FindAsync(id);
+            if (kategoriUpdateAt == null)
             {
                 return NotFound();
             }
+
+            kategoriUpdateAt.Nama_Kategori = kategori.Nama_Kategori;
+            kategoriUpdateAt.UpdatedAt = DateTime.UtcNow;
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.Update(kategori);
+                    _context.Update(kategoriUpdateAt);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!KategoriExists(kategori.Id))
+                    if (!KategoriExists(kategoriUpdateAt.Id))
                     {
                         return NotFound();
                     }

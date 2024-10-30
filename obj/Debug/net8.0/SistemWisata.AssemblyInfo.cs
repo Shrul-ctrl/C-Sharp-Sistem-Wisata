@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemWisata")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e428f69d11366d5ba2f8b4f920e55c1efc93b3e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d8d88a3e268cfd9e72a55d06c1778a9752e30d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemWisata")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemWisata")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
