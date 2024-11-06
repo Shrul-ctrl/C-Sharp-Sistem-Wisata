@@ -20,6 +20,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Wisata
+        [HttpGet("Admin/Wisata")]
         public async Task<IActionResult> Index(string searchString)
         {
             if (_context.Wisata == null)
@@ -39,6 +40,7 @@ namespace SistemWisata.Controllers
 
 
         // GET: Wisata/Details/5
+        [HttpGet("Admin/Wisata/Detail/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -59,6 +61,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Wisata/Create
+        [HttpGet("Admin/Wisata/Create")]
         public IActionResult Create()
         {
             ViewData["KategoriId"] = new SelectList(_context.Kategori, "Id", "Nama_Kategori");
@@ -69,7 +72,7 @@ namespace SistemWisata.Controllers
         // POST: Wisata/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost("Admin/Wisata/Create")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nama_Wisata,KategoriId,LokasiId,Deskripsi,Foto_Wisata")] Wisata wisata, IFormFile Foto_Wisata)
         {
@@ -98,8 +101,11 @@ namespace SistemWisata.Controllers
                     wisata.Foto_Wisata = fileName;
                 }
 
-                wisata.CreatedAt = DateTime.UtcNow;
-                wisata.UpdatedAt = DateTime.UtcNow;
+                TimeZoneInfo indonesiaTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time");
+                DateTime waktuIndonesia = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, indonesiaTimeZone);
+
+                wisata.CreatedAt = waktuIndonesia;
+                wisata.UpdatedAt = waktuIndonesia;
 
 
                 _context.Add(wisata);
@@ -114,8 +120,8 @@ namespace SistemWisata.Controllers
         }
 
 
-
         // GET: Wisata/Edit/5
+        [HttpGet("Admin/Wisata/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -136,7 +142,7 @@ namespace SistemWisata.Controllers
         // POST: Wisata/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost("Admin/Wisata/Edit/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nama_Wisata,KategoriId,LokasiId,Deskripsi,Foto_Wisata")] Wisata wisata, IFormFile Foto_Wisata)
         {
@@ -151,11 +157,14 @@ namespace SistemWisata.Controllers
                 return NotFound();
             }
 
+            TimeZoneInfo indonesiaTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time");
+            DateTime waktuIndonesia = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, indonesiaTimeZone);
+
             wisataUpdateAt.Nama_Wisata = wisata.Nama_Wisata;
             wisataUpdateAt.KategoriId = wisata.KategoriId;
             wisataUpdateAt.LokasiId = wisata.LokasiId;
             wisataUpdateAt.Deskripsi = wisata.Deskripsi;
-            wisataUpdateAt.UpdatedAt = DateTime.UtcNow;
+            wisataUpdateAt.UpdatedAt = waktuIndonesia;
 
             // Menyimpan nama foto lama
             var oldFotoWisata = _context.Wisata.AsNoTracking().FirstOrDefault(w => w.Id == id)?.Foto_Wisata;
@@ -211,6 +220,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Wisata/Delete/5
+        [HttpGet("Admin/Wisata/Delete/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -231,7 +241,7 @@ namespace SistemWisata.Controllers
         }
 
         // POST: Wisata/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost("Admin/Wisata/Delete/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

@@ -26,8 +26,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\zbahasa\DotNet\SistemWisata
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+[D:/zbahasa/DotNet/SistemWisata/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/zbahasa/DotNet/SistemWisata/Views/Home/about.cshtml]
@@ -96,6 +96,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/zbahasa/DotNet/SistemWisata/Views/Shared/_LayoutBack.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRCYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/zbahasa/DotNet/SistemWisata/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/zbahasa/DotNet/SistemWisata/Views/Shared/_ValidationScriptsPartial.cshtml]

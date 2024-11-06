@@ -38,6 +38,26 @@ namespace SistemWisata.Migrations
                     b.ToTable("Kategori");
                 });
 
+            modelBuilder.Entity("sistem_wisata.Models.Login", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Logins");
+                });
+
             modelBuilder.Entity("sistem_wisata.Models.Lokasi", b =>
                 {
                     b.Property<int>("Id")

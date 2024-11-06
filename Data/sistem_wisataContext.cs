@@ -17,5 +17,7 @@ namespace sistem_wisata.Data
         public DbSet<sistem_wisata.Models.Kategori> Kategori { get; set; } = default!;
         public DbSet<sistem_wisata.Models.Lokasi> Lokasi { get; set; } = default!;
         public DbSet<sistem_wisata.Models.Wisata> Wisata { get; set; } = default!;
+        public DbSet<Login> Logins { get; set; }
+
     }
 }

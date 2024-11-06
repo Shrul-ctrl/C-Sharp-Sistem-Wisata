@@ -36,10 +36,14 @@
                     </div>
                     <div class="form-group">
                         <label asp-for="Foto_Wisata" class="control-label">Foto Wisata</label>
-                        <input asp-for="Foto_Wisata" type="file" class="form-control mb-2" />
+                        <input asp-for="Foto_Wisata" type="file" class="form-control mb-2" accept="image/*" />
                         <span asp-validation-for="Foto_Wisata" class="text-danger"></span>
+                        <div>
+                            <img src="@Url.Content("~/images/" + Model.Foto_Wisata)"
+                                class="img-thumbnail" width="150" />
+                        </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group pt-3">
                         <input type="submit" value="Simpan" class="btn btn-primary btn-sm" />
                         |<a asp-action="Index">Kembali ke list</a>
                     </div>

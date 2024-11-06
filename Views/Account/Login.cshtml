@@ -1,0 +1,40 @@
+@model sistem_wisata.Models.Login
+
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post" class="max-w-xl m-4 p-10 bg-white rounded shadow-xl">
+    <p class="text-gray-800 font-medium text-center text-lg font-bold">Login</p>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <div class="col-md-6">
+            <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" type="email" id="Email" name="Email"
+                class="form-control" asp-for="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Password">Password</label>
+        <div class="col-md-6">
+            <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" type="password" id="Password"
+                name="Password" class="form-control" asp-for="Password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-0">
+        <div class="mt-4 items-center justify-between">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

@@ -1,48 +1,40 @@
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using sistem_wisata.Models;
 
-public class AccountController : Controller
+namespace sistem_wisata.Controllers
 {
-    private readonly UserManager<IdentityUser> _userManager;
-
-    public AccountController(UserManager<IdentityUser> userManager)
+    public class AccountController : Controller
     {
-        _userManager = userManager;
-    }
+        // Menampilkan halaman login
+        public IActionResult Login()
+        {
+            return View();
+        }   
 
-    [HttpGet]
-    public IActionResult Register()
+        [HttpPost]
+        public IActionResult Login(Login model)
     {
-        return View();
-    }
-
-  [HttpPost]
-public async Task<IActionResult> Register(Register model)
-{
     if (ModelState.IsValid)
     {
-        var user = new IdentityUser 
-        { 
-            UserName = model.Nama, 
-            Email = model.Email 
-        };
+        string validEmail = "admin@sistemwisata.com";
+        string validPassword = "Admin123";
 
-        var result = await _userManager.CreateAsync(user, model.Password);
-        if (result.Succeeded)
+        if (model.Email == validEmail && model.Password == validPassword)
         {
-            // Mengarahkan ke tampilan kategori
-            return RedirectToAction("Hoem", "Kategori");
+            return RedirectToAction("Index", "Home");
         }
 
-        foreach (var error in result.Errors)
-        {
-            ModelState.AddModelError(string.Empty, error.Description);
-        }
+        ModelState.AddModelError(string.Empty, "Username atau password salah.");
     }
+
     return View(model);
 }
 
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
 
+        
+    }
 }

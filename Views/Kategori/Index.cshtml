@@ -20,8 +20,8 @@
             <thead>
                 <tr>
                     <th>Kategori</th>
-                    <th>Created At</th>
-                    <th>Updated At</th>
+                    @* <th>Created At</th>
+                    <th>Updated At</th> *@
                     <th>Aksi</th>
                 </tr>
             </thead>
@@ -32,12 +32,12 @@
                         <td>
                             @Html.DisplayFor(modelItem => item.Nama_Kategori)
                         </td>
-                        <td>
+                        @* <td>
                             @Html.DisplayFor(modelItem => item.CreatedAt)
                         </td>
                         <td>
                             @Html.DisplayFor(modelItem => item.UpdatedAt)
-                        </td>
+                        </td> *@
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.Id"><i
                                     class="material-icons-outlined fs-5">edit</i></a> |

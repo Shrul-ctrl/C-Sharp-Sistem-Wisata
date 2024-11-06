@@ -20,12 +20,14 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Lokasi
+        [HttpGet("Admin/Lokasi")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Lokasi.ToListAsync());
         }
 
         // GET: Lokasi/Details/5
+         [HttpGet("Admin/Lokasi/Detail/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,6 +46,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Lokasi/Create
+        [HttpGet("Admin/Lokasi/Create")]
         public IActionResult Create()
         {
             return View();
@@ -52,7 +55,7 @@ namespace SistemWisata.Controllers
         // POST: Lokasi/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost("Admin/Lokasi/Create")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nama_Lokasi,Provinsi,Kabupaten")] Lokasi lokasi)
         {
@@ -69,8 +72,12 @@ namespace SistemWisata.Controllers
                     return View(lokasi);
                 }
 
-                lokasi.CreatedAt = DateTime.UtcNow;
-                lokasi.UpdatedAt = DateTime.UtcNow;
+                                
+        TimeZoneInfo indonesiaTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time");
+        DateTime waktuIndonesia = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, indonesiaTimeZone);
+        
+        lokasi.CreatedAt = waktuIndonesia;
+        lokasi.UpdatedAt = waktuIndonesia;
 
                 _context.Add(lokasi);
                 await _context.SaveChangesAsync();
@@ -81,6 +88,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Lokasi/Edit/5
+         [HttpGet("Admin/Lokasi/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -99,7 +107,7 @@ namespace SistemWisata.Controllers
         // POST: Lokasi/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost("Admin/Lokasi/Edit/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nama_Lokasi,Provinsi,Kabupaten")] Lokasi lokasi)
         {
@@ -124,10 +132,13 @@ namespace SistemWisata.Controllers
                 return NotFound();
             }
 
+                    TimeZoneInfo indonesiaTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time");
+        DateTime waktuIndonesia = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, indonesiaTimeZone);
+
             lokasiUpdateAt.Nama_Lokasi = lokasi.Nama_Lokasi;
             lokasiUpdateAt.Provinsi = lokasi.Provinsi;
             lokasiUpdateAt.Kabupaten = lokasi.Kabupaten;
-            lokasiUpdateAt.UpdatedAt = DateTime.UtcNow;
+            lokasiUpdateAt.UpdatedAt = waktuIndonesia;
 
             if (ModelState.IsValid)
             {
@@ -154,6 +165,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Lokasi/Delete/5
+         [HttpGet("Admin/Lokasi/Delete/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -172,7 +184,7 @@ namespace SistemWisata.Controllers
         }
 
         // POST: Lokasi/Delete/5
-        [HttpPost, ActionName("Delete")]
+         [HttpPost ("Admin/Lokasi/Delete/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

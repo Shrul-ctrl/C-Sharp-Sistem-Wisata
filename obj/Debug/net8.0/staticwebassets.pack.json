@@ -717,6 +717,30 @@
       "PackagePath": "staticwebassets\\assets\\plugins\\vectormap\\jvectormap.custom.js"
     },
     {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\dist\\all.css",
+      "PackagePath": "staticwebassets\\dist\\all.css"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\dist\\images\\dashboard.png",
+      "PackagePath": "staticwebassets\\dist\\images\\dashboard.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\dist\\images\\login-new.jpeg",
+      "PackagePath": "staticwebassets\\dist\\images\\login-new.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\dist\\images\\login.jpeg",
+      "PackagePath": "staticwebassets\\dist\\images\\login.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\dist\\images\\login.png",
+      "PackagePath": "staticwebassets\\dist\\images\\login.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\dist\\styles.css",
+      "PackagePath": "staticwebassets\\dist\\styles.css"
+    },
+    {
       "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -1877,8 +1901,20 @@
       "PackagePath": "staticwebassets\\frontend\\user\\css\\style.css"
     },
     {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\images\\SkullCavernElevator-963-1-6-1-1710878897.zip",
+      "PackagePath": "staticwebassets\\images\\SkullCavernElevator-963-1-6-1-1710878897.zip"
+    },
+    {
       "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\images\\css.png",
       "PackagePath": "staticwebassets\\images\\css.png"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\images\\download.jpeg",
+      "PackagePath": "staticwebassets\\images\\download.jpeg"
+    },
+    {
+      "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\images\\html.png",
+      "PackagePath": "staticwebassets\\images\\html.png"
     },
     {
       "Id": "D:\\zbahasa\\DotNet\\SistemWisata\\wwwroot\\lib\\bootstrap\\LICENSE",
