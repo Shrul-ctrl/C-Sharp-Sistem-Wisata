@@ -11,7 +11,7 @@ using sistem_wisata.Data;
 namespace SistemWisata.Migrations
 {
     [DbContext(typeof(sistem_wisataContext))]
-    [Migration("20241105082415_InitialCreate")]
+    [Migration("20241106015636_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

@@ -20,7 +20,7 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     var context = services.GetRequiredService<sistem_wisataContext>();
-    sistem_wisataContextSeed.Seed(context);  // Panggil seeder di sini
+    sistem_wisataContextSeed.Seed(context); 
 }
 
 // Configure the HTTP request pipeline.
