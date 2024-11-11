@@ -2,12 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using sistem_wisata.Models;
 
 namespace sistem_wisata.Data
 {
-    public class sistem_wisataContext : DbContext
+    public class sistem_wisataContext : IdentityDbContext
     {
         public sistem_wisataContext (DbContextOptions<sistem_wisataContext> options)
             : base(options)
@@ -17,7 +18,5 @@ namespace sistem_wisata.Data
         public DbSet<sistem_wisata.Models.Kategori> Kategori { get; set; } = default!;
         public DbSet<sistem_wisata.Models.Lokasi> Lokasi { get; set; } = default!;
         public DbSet<sistem_wisata.Models.Wisata> Wisata { get; set; } = default!;
-        public DbSet<Login> Logins { get; set; }
-
     }
 }

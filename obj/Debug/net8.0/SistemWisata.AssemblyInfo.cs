@@ -10,10 +10,12 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-SistemWisata-4b8a1b64-067e-4252-a019-1c82a2c9a8ba")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemWisata")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00cc4d1e91ee7dee2a4d11786dbf9f52b5fcd305")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemWisata")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemWisata")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

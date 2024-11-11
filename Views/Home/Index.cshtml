@@ -1,4 +1,8 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
     ViewData["Title"] = "Dashboard";
 }
 
@@ -12,7 +16,7 @@
                             height="60" alt="user">
                         <div class="">
                             <p class="mb-0 fw-semibold">Selamat Datang Kembali</p>
-                            <h4 class="fw-semibold mb-0 fs-4 mb-0">Jhon Anderson</h4>
+                            <h4 class="fw-semibold mb-0 fs-4 mb-0">@User.Identity?.Name!</h4>
                         </div>
                     </div>
                 </div>

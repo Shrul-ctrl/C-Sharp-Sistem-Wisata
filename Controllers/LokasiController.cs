@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using sistem_wisata.Data;
 using sistem_wisata.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemWisata.Controllers
 {
@@ -20,13 +21,15 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Lokasi
+         [Authorize]
         [HttpGet("Admin/Lokasi")]
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Lokasi.ToListAsync());
+            return View(await _context.Lokasi.OrderByDescending(k => k.CreatedAt).ToListAsync());
         }
 
         // GET: Lokasi/Details/5
+         [Authorize]
          [HttpGet("Admin/Lokasi/Detail/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
@@ -46,6 +49,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Lokasi/Create
+         [Authorize]
         [HttpGet("Admin/Lokasi/Create")]
         public IActionResult Create()
         {
@@ -88,6 +92,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Lokasi/Edit/5
+         [Authorize]
          [HttpGet("Admin/Lokasi/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -165,6 +170,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Lokasi/Delete/5
+         [Authorize]
          [HttpGet("Admin/Lokasi/Delete/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {

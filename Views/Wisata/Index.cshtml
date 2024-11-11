@@ -26,6 +26,7 @@
         <table id="example" class="table" style="width:100%">
             <thead>
                 <tr>
+                    <th>No</th>
                     <th>Nama Wisata</th>
                     <th>Deskripsi</th>
                     <th>Foto Wisata</th>
@@ -37,29 +38,35 @@
                 </tr>
             </thead>
             <tbody>
+                @{
+                    int index = 1;
+                }
                 @foreach (var item in Model)
                 {
                     <tr>
+                        <td>@index</td>
                         <td>@Html.DisplayFor(modelItem => item.Nama_Wisata)</td>
                         <td>@Html.DisplayFor(modelItem => item.Deskripsi)</td>
                         <td><img src="@Url.Content("~/images/" + item.Foto_Wisata)" style="width:100px;height:auto;" /></td>
                         <td>@Html.DisplayFor(modelItem => item.Kategori.Nama_Kategori)</td>
                         <td>@Html.DisplayFor(modelItem => item.Lokasi.Nama_Lokasi)</td>
                         @* <td>
-                            @Html.DisplayFor(modelItem => item.CreatedAt)
-                        </td>
+                    @Html.DisplayFor(modelItem => item.CreatedAt)
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.UpdatedAt)
+                    </td> *@
                         <td>
-                            @Html.DisplayFor(modelItem => item.UpdatedAt)
-                        </td> *@
-                        <td>
-                            <a asp-action="Edit" asp-route-id="@item.Id"><i
-                                    class="material-icons-outlined fs-5">edit</i></a> |
-                            <a asp-action="Details" asp-route-id="@item.Id"><i
-                                    class="material-icons-outlined fs-5">visibility</i></a> |
-                            <a asp-action="Delete" asp-route-id="@item.Id"><i
-                                    class="material-icons-outlined fs-5">delete</i></a>
+                            <a asp-action="Edit" asp-route-id="@item.Id"><i class="material-icons-outlined fs-5"
+                                    data-bs-toggle="tooltip" data-bs-placement="left" title="Edit Data">edit</i></a> |
+                            <a asp-action="Details" asp-route-id="@item.Id"><i class="material-icons-outlined fs-5"
+                                    data-bs-toggle="tooltip" data-bs-placement="left" title="Detail Data">visibility</i></a>
+                            |
+                            <a asp-action="Delete" asp-route-id="@item.Id"><i class="material-icons-outlined fs-5"
+                                    data-bs-toggle="tooltip" data-bs-placement="left" title="Hapus Data">delete</i></a>
                         </td>
                     </tr>
+                    index++;
                 }
             </tbody>
         </table>

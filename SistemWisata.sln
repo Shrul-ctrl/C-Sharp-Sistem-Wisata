@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemWisata", "SistemWisata.csproj", "{CB19495F-90D5-46C5-B108-54FA221CB2F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemWisata", "SistemWisata.csproj", "{C4EBA296-3E3D-4884-8C8E-570AF7E2E24B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CB19495F-90D5-46C5-B108-54FA221CB2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CB19495F-90D5-46C5-B108-54FA221CB2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CB19495F-90D5-46C5-B108-54FA221CB2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CB19495F-90D5-46C5-B108-54FA221CB2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EBA296-3E3D-4884-8C8E-570AF7E2E24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EBA296-3E3D-4884-8C8E-570AF7E2E24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EBA296-3E3D-4884-8C8E-570AF7E2E24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EBA296-3E3D-4884-8C8E-570AF7E2E24B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F8C7306B-1529-4936-866A-34DC75EF6769}
+		SolutionGuid = {92637191-D675-4AC4-B6B3-3001AAEC956C}
 	EndGlobalSection
 EndGlobal

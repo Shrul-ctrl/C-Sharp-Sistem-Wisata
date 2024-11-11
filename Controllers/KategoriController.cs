@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using sistem_wisata.Data;
 using sistem_wisata.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemWisata.Controllers
 {
@@ -20,14 +21,16 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Kategori
+        [Authorize]
         [HttpGet("Admin/Kategori")]
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Kategori.ToListAsync());
+            return View(await _context.Kategori.OrderByDescending(k => k.CreatedAt).ToListAsync());
         }
 
         // GET: Kategori/Details/5
-         [HttpGet("Admin/Kategori/Detail/{id}")]
+        [Authorize]
+        [HttpGet("Admin/Kategori/Detail/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -46,6 +49,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Kategori/Create
+        [Authorize]
         [HttpGet("Admin/Kategori/Create")]
         public IActionResult Create()
         {
@@ -70,13 +74,13 @@ namespace SistemWisata.Controllers
                     ModelState.AddModelError("Nama_Kategori", "Kategori dengan nama ini sudah ada.");
                     return View(kategori);
                 }
-                
-        TimeZoneInfo indonesiaTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time");
-        DateTime waktuIndonesia = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, indonesiaTimeZone);
-        
-        kategori.CreatedAt = waktuIndonesia;
-        kategori.UpdatedAt = waktuIndonesia;
-                
+
+                TimeZoneInfo indonesiaTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time");
+                DateTime waktuIndonesia = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, indonesiaTimeZone);
+
+                kategori.CreatedAt = waktuIndonesia;
+                kategori.UpdatedAt = waktuIndonesia;
+
 
                 _context.Add(kategori);
                 await _context.SaveChangesAsync();
@@ -87,7 +91,8 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Kategori/Edit/5
-         [HttpGet("Admin/Kategori/Edit/{id}")]
+        [Authorize]
+        [HttpGet("Admin/Kategori/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -130,8 +135,8 @@ namespace SistemWisata.Controllers
                 return NotFound();
             }
 
-                    TimeZoneInfo indonesiaTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time");
-        DateTime waktuIndonesia = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, indonesiaTimeZone);
+            TimeZoneInfo indonesiaTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time");
+            DateTime waktuIndonesia = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, indonesiaTimeZone);
 
             kategoriUpdateAt.Nama_Kategori = kategori.Nama_Kategori;
             kategoriUpdateAt.UpdatedAt = waktuIndonesia;
@@ -161,6 +166,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Kategori/Delete/5
+        [Authorize]
         [HttpGet("Admin/Kategori/Delete/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {

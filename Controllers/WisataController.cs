@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using sistem_wisata.Data;
 using sistem_wisata.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemWisata.Controllers
 {
@@ -20,6 +21,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Wisata
+         [Authorize]
         [HttpGet("Admin/Wisata")]
         public async Task<IActionResult> Index(string searchString)
         {
@@ -35,11 +37,12 @@ namespace SistemWisata.Controllers
                 wisata = wisata.Where(w => w.Nama_Wisata!.ToUpper().Contains(searchString.ToUpper()));
             }
 
-            return View(await wisata.ToListAsync());
+            return View(await wisata.OrderByDescending(k => k.CreatedAt).ToListAsync());
         }
 
 
         // GET: Wisata/Details/5
+         [Authorize]
         [HttpGet("Admin/Wisata/Detail/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
@@ -61,6 +64,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Wisata/Create
+         [Authorize]
         [HttpGet("Admin/Wisata/Create")]
         public IActionResult Create()
         {
@@ -121,6 +125,7 @@ namespace SistemWisata.Controllers
 
 
         // GET: Wisata/Edit/5
+         [Authorize]
         [HttpGet("Admin/Wisata/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -220,6 +225,7 @@ namespace SistemWisata.Controllers
         }
 
         // GET: Wisata/Delete/5
+         [Authorize]
         [HttpGet("Admin/Wisata/Delete/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {

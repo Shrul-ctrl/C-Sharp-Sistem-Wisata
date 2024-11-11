@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using sistem_wisata.Data;
 using SistemWisata.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemWisata.Controllers;
 
@@ -15,6 +16,7 @@ public class HomeController : Controller
         _context = context;
     }
 
+    [Authorize]
     public IActionResult Index()
     {
         var lokasiCount = _context.Lokasi.Count();
@@ -44,12 +46,12 @@ public class HomeController : Controller
     public async Task<IActionResult> Detail(int id)
     {
         var wisata = await _context.Wisata
-            .Include(w => w.Kategori) // Include kategori jika Anda ingin mengambil data kategori
+            .Include(w => w.Kategori)
             .FirstOrDefaultAsync(w => w.Id == id);
 
         if (wisata == null)
         {
-            return NotFound(); // Jika tidak ditemukan
+            return NotFound();
         }
 
         return View(wisata);
