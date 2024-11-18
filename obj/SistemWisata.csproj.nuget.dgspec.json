@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\zbahasa\\DotNet\\SistemWisata\\SistemWisata.csproj": {}
+    "D:\\Clone\\netcore\\netcore-faiz\\C-Sharp-Sistem-Wisata\\SistemWisata.csproj": {}
   },
   "projects": {
-    "D:\\zbahasa\\DotNet\\SistemWisata\\SistemWisata.csproj": {
+    "D:\\Clone\\netcore\\netcore-faiz\\C-Sharp-Sistem-Wisata\\SistemWisata.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\zbahasa\\DotNet\\SistemWisata\\SistemWisata.csproj",
+        "projectUniqueName": "D:\\Clone\\netcore\\netcore-faiz\\C-Sharp-Sistem-Wisata\\SistemWisata.csproj",
         "projectName": "SistemWisata",
-        "projectPath": "D:\\zbahasa\\DotNet\\SistemWisata\\SistemWisata.csproj",
+        "projectPath": "D:\\Clone\\netcore\\netcore-faiz\\C-Sharp-Sistem-Wisata\\SistemWisata.csproj",
         "packagesPath": "C:\\Users\\ASUS407\\.nuget\\packages\\",
-        "outputPath": "D:\\zbahasa\\DotNet\\SistemWisata\\obj\\",
+        "outputPath": "D:\\Clone\\netcore\\netcore-faiz\\C-Sharp-Sistem-Wisata\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS407\\AppData\\Roaming\\NuGet\\NuGet.Config"

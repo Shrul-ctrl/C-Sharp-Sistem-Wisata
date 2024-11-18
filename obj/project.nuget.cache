@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hU8tI5yRHis=",
+  "dgSpecHash": "SXcjigHP0rE=",
   "success": true,
-  "projectFilePath": "D:\\zbahasa\\DotNet\\SistemWisata\\SistemWisata.csproj",
+  "projectFilePath": "D:\\Clone\\netcore\\netcore-faiz\\C-Sharp-Sistem-Wisata\\SistemWisata.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS407\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ASUS407\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
