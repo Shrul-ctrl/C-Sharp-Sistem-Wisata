@@ -6974,11 +6974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Clone\\netcore-adit-master\\netcore-faiz\\C-Sharp-Sistem-Wisata\\SistemWisata.csproj",
+      "projectUniqueName": "D:\\Clone\\netcore\\netcore-faiz\\C-Sharp-Sistem-Wisata\\SistemWisata.csproj",
       "projectName": "SistemWisata",
-      "projectPath": "D:\\Clone\\netcore-adit-master\\netcore-faiz\\C-Sharp-Sistem-Wisata\\SistemWisata.csproj",
+      "projectPath": "D:\\Clone\\netcore\\netcore-faiz\\C-Sharp-Sistem-Wisata\\SistemWisata.csproj",
       "packagesPath": "C:\\Users\\ASUS407\\.nuget\\packages\\",
-      "outputPath": "D:\\Clone\\netcore-adit-master\\netcore-faiz\\C-Sharp-Sistem-Wisata\\obj\\",
+      "outputPath": "D:\\Clone\\netcore\\netcore-faiz\\C-Sharp-Sistem-Wisata\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS407\\AppData\\Roaming\\NuGet\\NuGet.Config"
