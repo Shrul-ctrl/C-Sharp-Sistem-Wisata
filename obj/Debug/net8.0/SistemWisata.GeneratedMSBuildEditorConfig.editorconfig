@@ -17,151 +17,151 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistemWisata
 build_property.RootNamespace = SistemWisata
-build_property.ProjectDir = D:\zbahasa\DotNet\SistemWisata\
+build_property.ProjectDir = D:\Clone\netcore-adit-master\netcore-faiz\C-Sharp-Sistem-Wisata\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\zbahasa\DotNet\SistemWisata
+build_property.MSBuildProjectDirectory = D:\Clone\netcore-adit-master\netcore-faiz\C-Sharp-Sistem-Wisata
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/zbahasa/DotNet/SistemWisata/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Home/about.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Home/about.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Home/destinasi.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Home/destinasi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkZXN0aW5hc2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Home/detail.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Home/detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Home/Index.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Home/Main.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Home/Main.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Kategori/Create.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Kategori/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Kategori/Delete.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Kategori/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Kategori/Details.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Kategori/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Kategori/Edit.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Kategori/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Kategori/Index.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Kategori/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Lokasi/Create.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Lokasi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYXNpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Lokasi/Delete.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Lokasi/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYXNpXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Lokasi/Details.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Lokasi/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYXNpXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Lokasi/Edit.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Lokasi/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYXNpXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Lokasi/Index.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Lokasi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYXNpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Shared/Error.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Shared/_LayoutBack.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Shared/_LayoutBack.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRCYWNrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Shared/_LayoutLogin.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Shared/_LayoutLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Shared/_LoginPartial.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Wisata/Create.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Wisata/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzYXRhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Wisata/Delete.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Wisata/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzYXRhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Wisata/Details.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Wisata/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzYXRhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Wisata/Edit.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Wisata/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzYXRhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Wisata/Index.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Wisata/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzYXRhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/_ViewImports.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/_ViewStart.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zbahasa/DotNet/SistemWisata/Views/Shared/_Layout.cshtml]
+[D:/Clone/netcore-adit-master/netcore-faiz/C-Sharp-Sistem-Wisata/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4sxtggylvv
